@@ -1,0 +1,92 @@
+ .contenedor {
+     max-width: 1000px;
+     margin: auto;
+ }
+ 
+ .vas video {
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
+ 
+ .navega {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     display: block;
+     text-align: center;
+ }
+ 
+ .navega>a {
+     color: black;
+     padding: 10px;
+     font-size: 25px;
+     margin-right: 6px;
+ }
+ 
+ .parr {
+     text-align: center;
+     display: block;
+     margin: auto;
+     margin-bottom: 20px;
+     max-width: 600px;
+ }
+ 
+ .parr>p {
+     padding: 10px;
+     margin: 18px;
+ }
+ 
+ .teuno {
+     font-size: 20px;
+     text-transform: uppercase;
+ }
+ 
+ .even {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+ }
+ 
+ .even>p {
+     padding: 8px;
+     font-size: 18px;
+ }
+ 
+ .insta {
+     text-align: center;
+ }
+ 
+ .enn {
+     width: 120px;
+     box-shadow: none;
+     border: none;
+ }
+ 
+ .re {
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .shop {
+     text-align: center;
+ }
+ 
+ .shop>p {
+     font-size: 17px;
+ }
+ 
+ .pp {
+     font-size: 20px;
+ }
+ 
+ .pf>h6 {
+     font-weight: bold;
+     color: rgb(0, 0, 0, 0.7);
+ }

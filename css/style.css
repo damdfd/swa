@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+.expo {
+    width: 200px;
+    box-shadow: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 80%;
+    border: solid rgb(0, 0, 0, 0.5) 1px;
+    box-shadow: -5px 5px 5px black;
+}
+
+.rowi {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.columni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 50%;
+    padding: 5px;
+}
+
+.fitfat {
+    text-align: center;
+    text-shadow: black 2px;
+    flex: 40%;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .fitfat {
+        flex: 100%;
+    }
+}
+
+footer {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(240, 239, 234);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.pie {
+    display: flex;
+    flex-direction: column;
+    flex: start;
+    width: 100%;
+    padding: 10px;
+}
+
+.pie>a {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.haas {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.haas>p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.lst {
+    text-align: center;
+}
+
+.fitfat>a>h5 {
+    color: black;
+    font-family: 'Pushster', cursive;
+}
+
+.h5 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ult {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 1.5 rem;
+}
+
+.accordion-item {
+    background-color: #ffffff;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0, 0, 0, .1);
+}
+
+.accordion-link {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+
+.accordion-link ion-icon {
+    color: #000000;
+    padding: .5rem;
+}
+
+.accordion-link .resta {
+    display: none;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    transition: max-height 650ms;
+}
+
+.answer::before {
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: aqua;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+}
+
+.accordion-item:target .answer {
+    max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .suma {
+    display: none;
+}
+
+.accordion-item:target .accordion-link .resta {
+    display: block;
+}

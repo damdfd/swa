@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contenido {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contenido>img {
+    margin: 15px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 5px -5px 5px black;
+    border: solid rgb(0, 0, 0, 0.5) 1px;
+    height: auto;
+}
+
+.tex {
+    margin-left: 30px;
+}
+
+h3 {
+    padding: 10px;
+    font-size: 35px;
+}
+
+.ll {
+    margin-top: 29px;
+}
+
+.ll>a {
+    border: 1px black solid;
+    background: black;
+    color: #fff;
+    margin-left: 5px;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.tex>p {
+    font-size: 16px;
+    padding-top: 12px;
+}
+
+.precio {
+    padding: 10px;
+    margin-bottom: 28px;
+    display: block;
+}
+
+.mmm {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+footer {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(240, 239, 234);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.pie {
+    display: flex;
+    flex-direction: column;
+    flex: start;
+    width: 100%;
+    padding: 10px;
+}
+
+.pie>a {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.lst {
+    text-align: center;
+}
